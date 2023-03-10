@@ -1,0 +1,4 @@
+node_modules
+.env*
+Appstart.ps1
+readme.txt

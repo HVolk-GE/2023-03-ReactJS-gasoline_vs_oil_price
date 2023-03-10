@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Geolocation - Basics</title>
+	</head>
+	<body>
+		<form>
+			<div class="form-group">
+				<label class="form-label" for="lat">Latitude</label>
+				<input
+					class="form-input"
+					id="lat"
+					type="number"
+					step="any"
+					name="lat"
+					placeholder="Latitude"
+				/>
+			</div>
+			<div class="form-group">
+				<label class="form-label" for="lng">Longitude</label>
+				<input
+					class="form-input"
+					id="lng"
+					type="number"
+					step="any"
+					name="lng"
+					placeholder="Longitude"
+				/>
+			</div>
+
+			<div class="form-footer">
+				<button type="button" onclick="getLocation()">Geolocation</button>
+			</div>
+		</form>
+		<script type="text/javascript">
+			// geolocation
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+				} else {
+					alert("Please check your permissions");
+				}
+			}
+
+			//location
+			function onGeoSuccess(position) {
+				//Position Coords
+				var latitude = position.coords.latitude;
+				var longitude = position.coords.longitude;
+
+				//Data to input
+				document.getElementById("lat").value = latitude;
+				document.getElementById("lng").value = longitude;
+			}
+
+			// Error
+			function onGeoError(position) {
+				alert("Error code " + position.code + ". " + position.message);
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.3 );
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sideStandardMargin {
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.sideChoises {
+  margin-top: 75px;
+}
+
+.card {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: -30px;
+  width: 23rem;
+}
+
+.selectCategory {
+  text-decoration-line: underline;
+  color: red;
+}
+
+.selectRating {
+  margin-left: 30px;
+}
