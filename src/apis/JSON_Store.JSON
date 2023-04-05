@@ -1,0 +1,128 @@
+[
+	{
+		"id": 4,
+		"avgbenzin": 1.733,
+		"oilprice": 83.87,
+		"eurusd": 1.069,
+		"latit": 50.3891995,
+		"lognit": 8.1047559,
+		"created_at": "2023-03-01T11:36:30.000Z"
+	},
+	{
+		"id": 5,
+		"avgbenzin": 1.727,
+		"oilprice": 83.87,
+		"eurusd": 1.067,
+		"latit": 50.3891932,
+		"lognit": 8.1047595,
+		"created_at": "2023-03-01T17:01:41.000Z"
+	},
+	{
+		"id": 6,
+		"avgbenzin": 1.782,
+		"oilprice": 83.87,
+		"eurusd": 1.064,
+		"latit": 50.3892188,
+		"lognit": 8.1047559,
+		"created_at": "2023-03-02T08:18:39.000Z"
+	},
+	{
+		"id": 7,
+		"avgbenzin": 1.744,
+		"oilprice": 84.55,
+		"eurusd": 1.06,
+		"latit": 50.389194,
+		"lognit": 8.1047586,
+		"created_at": "2023-03-02T19:33:38.000Z"
+	},
+	{
+		"id": 8,
+		"avgbenzin": 1.842,
+		"oilprice": 84.74,
+		"eurusd": 1.062,
+		"latit": 50.3892027,
+		"lognit": 8.1047621,
+		"created_at": "2023-03-03T07:30:50.000Z"
+	},
+	{
+		"id": 9,
+		"avgbenzin": 1.787,
+		"oilprice": 84.52,
+		"eurusd": 1.061,
+		"latit": 50.3892176,
+		"lognit": 8.1047573,
+		"created_at": "2023-03-03T09:15:20.000Z"
+	},
+	{
+		"id": 10,
+		"avgbenzin": 1.779,
+		"oilprice": 86,
+		"eurusd": 1.064,
+		"latit": 50.389207,
+		"lognit": 8.1047578,
+		"created_at": "2023-03-04T07:43:05.000Z"
+	},
+	{
+		"id": 11,
+		"avgbenzin": 1.834,
+		"oilprice": 80.96,
+		"eurusd": 1.059,
+		"latit": 50.3891909,
+		"lognit": 8.1047601,
+		"created_at": "2023-03-10T07:35:03.000Z"
+	},
+	{
+		"id": 12,
+		"avgbenzin": 1.777,
+		"oilprice": 81.2,
+		"eurusd": 1.059,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-10T09:39:46.000Z"
+	},
+	{
+		"id": 13,
+		"avgbenzin": 1.787,
+		"oilprice": 81,
+		"eurusd": 1.059,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-10T11:14:38.000Z"
+	},
+	{
+		"id": 14,
+		"avgbenzin": 1.721,
+		"oilprice": 74.43,
+		"eurusd": 1.062,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-16T09:12:47.000Z"
+	},
+	{
+		"id": 15,
+		"avgbenzin": 1.693,
+		"oilprice": 75.38,
+		"eurusd": 1.062,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-16T16:17:01.000Z"
+	},
+	{
+		"id": 16,
+		"avgbenzin": 1.686,
+		"oilprice": 72.53,
+		"eurusd": 1.067,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-19T11:27:57.000Z"
+	},
+	{
+		"id": 17,
+		"avgbenzin": 1.681,
+		"oilprice": 71.1,
+		"eurusd": 1.067,
+		"latit": 50.3891868,
+		"lognit": 8.1047626,
+		"created_at": "2023-03-20T06:51:13.000Z"
+	}
+]

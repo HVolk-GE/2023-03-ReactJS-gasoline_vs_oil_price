@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Navbar from "../src/pages/Navbar";
+import Navbar from "./components/pages/Navbar";
 import { Provider } from "react-redux";
 import store from "./components/store/store";
 
