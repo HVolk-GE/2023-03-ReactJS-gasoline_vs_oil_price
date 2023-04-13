@@ -6,6 +6,8 @@ let latit = process.env.REACT_APP_LATITUTE;
 let lognit = process.env.REACT_APP_LONGITUTE;
 let benzType = "e10";
 
+localStorage.setItem("Länge", latit);
+localStorage.setItem("Breite", lognit);
 // Set a Default URL, if current position blocked by browser:
 // Setting your latitude and longitude in a .env file stored in the frontend root folder (see above)!
 let url =

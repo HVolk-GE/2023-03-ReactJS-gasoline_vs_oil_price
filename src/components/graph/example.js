@@ -26,5 +26,7 @@ const ReadChartData = () => {
 		tmpOilPrice.push(prices[i].oilprice);
 		tmpGasolinePrice.push(prices[i].avgbenzin);
 	}
-	return ReadChartData;
+	// return ReadChartData;
 };
+
+export default ReadChartData;
