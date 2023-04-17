@@ -3,3 +3,5 @@ node_modules
 /data*
 !.keepme
 indexcopy.js
+index_public.js
+
