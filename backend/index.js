@@ -4,10 +4,10 @@ import cors from "cors";
 
 const app = express();
 const db = mysql.createConnection({
-	host: "{your hostname or ip-address}",
-	user: "{username}",
-	password: "{userpassword}",
-	database: "{databasename}",
+	host: "127.0.0.1",
+	user: "root",
+	password: "root",
+	database: "littletoolsfarmdb",
 });
 
 // Middleware cors error and json
