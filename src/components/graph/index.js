@@ -1,12 +1,8 @@
 // https://apexcharts.com/docs/react-charts/
-
 // https://cube.dev/blog/chart-js-example-with-dynamic-dataset
 
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
-import TmpData from "./example";
-
-console.log(TmpData);
 
 let catego = [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998];
 

@@ -1,4 +1,4 @@
 node_modules
-.env*
+.env_offline
 Appstart.ps1
 readme.txt
