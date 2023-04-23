@@ -2,6 +2,6 @@ node_modules
 /.env*
 /data*
 !.keepme
-index_copy.js
-index_public.js
+index_online.js
+index_offline.js
 
