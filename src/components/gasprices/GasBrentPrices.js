@@ -78,9 +78,9 @@ function GasBrentPrices() {
 					<p>
 						Closed-/Record Time: {priceTime && priceTime.toLocaleTimeString()}
 					</p>
-					<p>PreviousClose: ${prevPrice}</p>
+					<p>PreviousClose: $ {prevPrice}</p>
 					<p>
-						<b>Actual Price: ${price}</b>
+						<b>Actual Price: $ {price}</b>
 					</p>
 				</div>
 			</div>

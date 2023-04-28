@@ -169,7 +169,7 @@ function ReadTankPrices() {
 					<div className="card-body">
 						<h4>Region: </h4>
 						<h5>
-							Durchschnittspreis für ({benzType}) : {cntTankstellePrices} €{" "}
+							Durchschnittspreis ({benzType}) : {cntTankstellePrices} €{" "}
 						</h5>
 					</div>
 				</div>
