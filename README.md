@@ -41,6 +41,8 @@ database: "dbname",
 
 # The Idea behind is:
 
+I'm aware that communication with the backend will/can be solved differently. 
+I just want to show here that, I can also master and implement complicated thinking.
 An clear view of the history of gasoline price vs oil price.
 So that you can see how the two prices behave in relation gasoline prices vs oil prices.
 The Natural GAS Price are "nice to have" !
