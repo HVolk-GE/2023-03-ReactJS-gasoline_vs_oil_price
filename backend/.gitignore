@@ -2,6 +2,4 @@ node_modules
 /.env*
 /data*
 !.keepme
-index_online.js
 index_offline.js
-

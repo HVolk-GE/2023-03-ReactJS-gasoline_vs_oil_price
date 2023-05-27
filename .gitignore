@@ -4,3 +4,4 @@ node_modules
 Appstart.ps1
 readme.txt
 .env
+./backend/index.js
