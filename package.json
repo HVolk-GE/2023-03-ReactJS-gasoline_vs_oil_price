@@ -21,6 +21,7 @@
 		"react-apexcharts": "^1.4.0",
 		"react-bootstrap": "^2.5.0",
 		"react-chartjs-2": "^5.2.0",
+		"react-data-table-component": "^7.5.3",
 		"react-dom": "^18.2.0",
 		"react-hook-form": "^7.34.2",
 		"react-parcel": "^1.0.8-alpha.6",

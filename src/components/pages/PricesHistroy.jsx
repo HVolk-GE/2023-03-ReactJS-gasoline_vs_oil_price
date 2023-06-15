@@ -3,10 +3,31 @@ import "../../index.css";
 // useSelector = Den States holen,
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
+import DataTable from "react-data-table-component";
+import "bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/css/bootstrap.css";
+
+const customStyles = {
+	headRow: {
+		style: {
+			backgroundColor: "blue",
+			color: "white",
+			}
+		},
+		headCells: {
+			fontSize: "16px",
+			fontWeight: "600",
+	},
+	cells: {
+		fontSize: "15px",
+		
+		}
+}
 
 // function PriceHistroy() {
 const PriceHistroy = () => {
 	const dispatch = useDispatch();
+
 	useEffect(() => {
 		const fetchAllPrices = async () => {
 			try {
@@ -34,7 +55,7 @@ const PriceHistroy = () => {
 		prices = JSON.parse(prices);
 	}
 
-	//console.log("Prices inhalt: ", prices);
+	console.log("Prices inhalt: ", prices);
 
 	// Datetime formater from response to readable format:
 	for (let i = 0; i < prices.length; ++i) {
@@ -57,39 +78,39 @@ const PriceHistroy = () => {
 		maximumFractionDigits: 3,
 	});
 
+	const columns = [
+		{
+			name: 'ID',
+			selector: row => row.id,
+			sortable: true,
+	},
+    {
+        name: 'Record Date/Time (CET)',
+			selector: row => row.created_at,
+			sortable: true,
+    },
+    {
+        name: 'Oil-Price $/pro Barrel',
+				selector: row => formatter.format(row.oilprice),
+		},
+		{
+			name: 'avg. Gasoline E10 Price €/l',
+			selector: row => formatter.format(row.avgbenzin),
+	},
+];
+
 	return (
 		<div>
 			<h1>Oil prices vs Gasstation prices (History)</h1>
-			<div className="container-fluid text-center">
-				<div className="row row-cols-12">
-					<div className="row justify-content-md-center">
-						<div className="row row-cols-8">
-							<div className="card shadow p-3 mb-5 bg-body rounded">
-								<div className="prices">
-									<table className="table table-striped">
-										<thead>
-											<tr>
-												<th>Record Date/Time (CET)</th>
-												<th>Oil-Price $/pro Barrel</th>
-												<th>avg. Gasoline E10 Price €/l</th>
-											</tr>
-										</thead>
-										<tbody>
-											{prices.map((price) => (
-												<tr className="price" key={price.id}>
-													<td>{price.created_at}</td>
-													<td>{formatter.format(price.oilprice)}</td>
-													<td>{formatter.format(price.avgbenzin)}</td>
-												</tr>
-											))}
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div style={{padding: "50px 10%", backgroundColor: "gray"}}>
+			<DataTable
+				columns={columns}
+					data={prices}
+					customStyles={customStyles}
+					pagination
+				>
+				</DataTable>
 				</div>
-			</div>
 		</div>
 	);
 };
