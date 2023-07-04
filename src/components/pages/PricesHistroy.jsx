@@ -103,7 +103,9 @@ const PriceHistroy = () => {
 		<div>
 			<h1>Oil prices vs Gasstation prices (History)</h1>
 			<div style={{padding: "50px 10%", backgroundColor: "gray"}}>
-			<DataTable
+				<DataTable
+					defaultSortFieldId={1}
+					defaultSortAsc={false}
 				columns={columns}
 					data={prices}
 					customStyles={customStyles}
